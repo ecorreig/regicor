@@ -31,7 +31,7 @@ calcular_regicor <- function(df, noms_cols) {
 
   for (i in 1:ncol(df)) {
     quin <- which(names(df)[i] %in% noms_cols)
-    if (quin) {
+    if (length(quin)) {
       names(df[, i]) <- noms_dict[quin]
     }
   }
