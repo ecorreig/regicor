@@ -1,0 +1,11 @@
+Package: regicor
+Type: Package
+Title: Càlcul de l'escala de risc cardiovascular Regicor
+Version: 0.1
+Author: Eudald Correig Fraga
+Maintainer: Eudald Correig Fraga <eudald@correig.net>
+Description: Calcula l'escala de risc cardiovascular regicor segons l'estudi Marrugat 2003.
+License: obert
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.0.2
